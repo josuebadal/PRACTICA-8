@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+body
+{
+    background-image: url("/img/fondo.jpg");
+    
+}
+.encabezado{
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    border-radius: 0px;
+}
+#menu{
+ background-color: black;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#menu ul li a:hover{
+    background-color: green;
+}
+.piePagina{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    
+    
+    
+}
+.areaPrincipal{
+    width: 1200px;
+    height: 500px;
+    background-color: fuchsia;
+    margin: 0em auto;
+    bottom: 0;
+   
+
+}
+.datos{
+    padding: 10px;
+}
+div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    font: 100;
+}
+.description{
+    color: yellow;
+}
